@@ -1,0 +1,312 @@
+body{
+  font-family: "Montserrat-bold";
+    text-align: center;
+}
+
+h1,h4,h5,h6{
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+h2{
+  color: #ffffff;
+  font-family: 'Modern Antiqua';
+}
+
+h3{
+    font-family: 'Modern Antiqua';
+}
+
+p{
+  color: #fff;
+  padding: auto 15%;
+}
+
+.Description{
+  color: #8f8f8f;
+    padding: auto 10%;
+
+}
+
+/* Headings */
+
+.big{
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.5px;
+  text-align: center;
+  margin-top: 20px;
+   font-family: 'Modern Antiqua';
+     color: #00DBDE ;
+}
+
+.b{
+  font-family: 'Modern Antiqua';
+    color: #8f8f8f ;
+}
+
+
+.big-Headings{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.Attractions-name{
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  font-family: 'Modern Antiqua';
+  color: #fff;
+}
+
+.colored-sec{
+  background-image: linear-gradient(to right, rgb(8, 174, 234),rgb(42,245,152)) ;
+  color: #fff;
+  text-align: center;
+}
+
+.big-2{
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Modern Antiqua';
+  color: #ffffff ;
+}
+
+.white-sec{
+    background-color: #fff;
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding:0 0  4.5rem;
+
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-family: 'Modern Antiqua', cursive;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* container */
+
+.flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:0;
+	padding:0;
+	font-family: 'Loto',sans-serif;
+	min-height: 200vh;
+}
+
+.container{
+	width: 1000px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.container .card{
+	position: relative;
+}
+
+.container .card .face {
+	width: 300px;
+	height: 200px;
+	transition: 0.4s;
+}
+
+.container .card .face.face1{
+	position: relative;
+	background: radial-gradient(#42E695,#3BB2B8) ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content:center;
+	z-index: 1;
+	transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+   box-shadow:
+		inset 0 0 60px #fff,
+		inset 20px 0 80px #f0f,
+		inset -20px 0 80px #0ff,
+		inset 20px 0 300px #f0f,
+		inset -20px 0 300px #0ff,
+		0 0 50px #fff,
+		-10px 0 80px #fof,
+		10px 0 80px #0ff;
+		transform: translateY(0px);
+}
+
+
+.container .card .face.face1 .content{
+
+	opacity: 0.2;
+	text-align: center;
+	transition: 0.5s;
+
+}
+
+.container .card:hover .face.face1 .content{
+	opacity: 0.5;
+}
+
+.container .card .face.face1 .content h1{
+	font-size: 1em:
+	color: #fff;
+	text-align: center;
+}
+
+.container .card .face.face2{
+	position: relative;
+	background: 	-webkit-linear-gradient(#42E695,#3BB2B8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	box-shadow: border-box;
+	box-shadow: 0 0px 0px rgb(42,245,152);
+	transform: translateY(-100px);
+}
+
+
+.container .card:hover .face.face2{
+	transform: translateY(0px);
+	box-shadow: border-box;
+	box-shadow: 0 20px 50px rgb(42,245,152);
+}
+
+.container .card .face.face2 .content p,h5{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #333;
+}
+
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+#title {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+
+
+
+/* features section */
+
+#features{
+  position: relative;
+}
+
+.features-title{
+  font-size: 1.5rem;
+}
+
+
+.feature-box{
+  padding: 5%;
+  text-align: center;
+}
+
+
+.icon{
+  padding-bottom: 5%;
+  color: #00DBDE;
+  margin-bottom: 5rem;
+
+}
+.icon:hover{
+  color: #16A085;
+}
+
+
+
+/* testimonial  section*/
+
+
+#testimonials{
+  background-color:#649d66;
+}
+
+
+.testimonial-text{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: 'Modern Antiqua';
+}
+
+.testimonial-img{
+  width: 80%;
+  border-radius: 100%;
+  margin: 50%;
+}
+
+#press{
+  padding-bottom: 3%;
+}
+
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+
+#pricing-coloumn {
+  padding: 3% 2%;
+  margin: 50px;
+
+}
+
+/* footer section */
+
+.social-icon{
+  margin: 20px 10px;
+    color: #fff;
+}
+
+
+@media (max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
